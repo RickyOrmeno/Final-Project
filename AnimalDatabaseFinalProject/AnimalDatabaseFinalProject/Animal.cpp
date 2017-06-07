@@ -21,6 +21,11 @@ void Animal::addAnimal(std::shared_ptr<Animal> newAnimal)
 	_Animals.push_back(newAnimal);
 }
 
+void Animal::showAnimal()
+{
+//	 _Animals.pop_back;
+}
+
 
 Animal::~Animal()
 {

@@ -9,7 +9,7 @@ public:
 	AquaticMammal(std::string name, std::string description);
 	
 	void addAquaticMammal(std::shared_ptr<AquaticMammal> newAquaticMammal);
-
+	void showAquaticMammal();
 	~AquaticMammal();
 };
 

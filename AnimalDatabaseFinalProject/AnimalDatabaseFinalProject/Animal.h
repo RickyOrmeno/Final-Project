@@ -15,6 +15,7 @@ public:
 	std::string getName();
 	std::string getDescription();
 	void addAnimal(std::shared_ptr<Animal> newAnimal);
+	void showAnimal();
 	~Animal();
 };
 
